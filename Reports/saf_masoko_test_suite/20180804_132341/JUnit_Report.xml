@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="saf_masoko_test_suite" time="226" tests="1" failures="4" errors="0">
+   <testsuite name="saf_masoko_test_suite" tests="1" failures="4" errors="0" time="226" timestamp="2018-08-04 13:23:45" hostname="USER - DESKTOP-A3PF5TC" id="Test Suites/saf_masoko_test_suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_132341"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_132341\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_132341\\1533378262098.png, C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_132341\\1533378334557.png, C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_132341\\1533378370599.png, C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_132341\\1533378450281.png"/>
+         <property name="hostName" value="USER - DESKTOP-A3PF5TC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.40.43"/>
+         <property name="sessionId" value="984436cb3fca6ede9b42e0c214faab53"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/add_to_cart" classname="Test Cases/add_to_cart" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_My Cart' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: bef8a7987bd7b06965de7603d092c9cf)"/>
+         <system-out><![CDATA[2018-08-04 13:23:46 - [TEST_CASE][FAILED] - Test Cases/add_to_cart: Test Cases/add_to_cart FAILED because (of) Unable to click on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_My Cart' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: bef8a7987bd7b06965de7603d092c9cf)
+
+2018-08-04 13:23:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-04 13:23:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-04 13:23:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:24:14 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:24:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Add to Cart' is clicked on
+
+2018-08-04 13:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Add to Cart' is clicked on
+
+2018-08-04 13:24:21 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_My Cart' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: bef8a7987bd7b06965de7603d092c9cf)
+
+2018-08-04 13:24:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_My Cart' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: bef8a7987bd7b06965de7603d092c9cf)
+[[ATTACHMENT|C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_132341\\1533378262098.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-04 13:23:46 - [TEST_CASE][FAILED] - Test Cases/add_to_cart: Test Cases/add_to_cart FAILED because (of) Unable to click on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_My Cart' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: bef8a7987bd7b06965de7603d092c9cf)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/product_search" classname="Test Cases/product_search" status="PASSED">
+         <system-out><![CDATA[2018-08-04 13:24:22 - [TEST_CASE][PASSED] - Test Cases/product_search: Test Cases/product_search
+
+2018-08-04 13:24:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-04 13:24:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-04 13:24:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-04 13:24:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:24:44 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:24:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-08-04 13:24:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-08-04 13:24:49 - [TEST_STEP][PASSED] - setText: Text 'bouncy diapers' is set on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/input_q'
+
+2018-08-04 13:24:51 - [MESSAGE][PASSED] - Text 'bouncy diapers' is set on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/input_q'
+
+2018-08-04 13:24:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-08-04 13:25:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-08-04 13:25:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-04 13:25:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user_registration" classname="Test Cases/user_registration" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 59d0bceee554b65cedf172820ddb7f84)"/>
+         <system-out><![CDATA[2018-08-04 13:25:01 - [TEST_CASE][FAILED] - Test Cases/user_registration: Test Cases/user_registration FAILED because (of) Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 59d0bceee554b65cedf172820ddb7f84)
+
+2018-08-04 13:25:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-04 13:25:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-04 13:25:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:25:25 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:25:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Register' is clicked on
+
+2018-08-04 13:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Register' is clicked on
+
+2018-08-04 13:25:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create New Customer Account/span_Create an Account' is clicked on
+
+2018-08-04 13:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/span_Create an Account' is clicked on
+
+2018-08-04 13:25:30 - [TEST_STEP][PASSED] - setText: Text 'Damaris' is set on object 'Object Repository/Page_Create New Customer Account/input_firstname'
+
+2018-08-04 13:25:31 - [MESSAGE][PASSED] - Text 'Damaris' is set on object 'Object Repository/Page_Create New Customer Account/input_firstname'
+
+2018-08-04 13:25:31 - [TEST_STEP][PASSED] - setText: Text 'Cherono' is set on object 'Object Repository/Page_Create New Customer Account/input_lastname'
+
+2018-08-04 13:25:31 - [MESSAGE][PASSED] - Text 'Cherono' is set on object 'Object Repository/Page_Create New Customer Account/input_lastname'
+
+2018-08-04 13:25:31 - [TEST_STEP][PASSED] - setText: Text '+254746155548' is set on object 'Object Repository/Page_Create New Customer Account/input_mobile'
+
+2018-08-04 13:25:32 - [MESSAGE][PASSED] - Text '+254746155548' is set on object 'Object Repository/Page_Create New Customer Account/input_mobile'
+
+2018-08-04 13:25:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create New Customer Account/label_Email' is clicked on
+
+2018-08-04 13:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/label_Email' is clicked on
+
+2018-08-04 13:25:32 - [TEST_STEP][PASSED] - setText: Text 'cherodamer21@gmail.com' is set on object 'Object Repository/Page_Create New Customer Account/input_email'
+
+2018-08-04 13:25:33 - [MESSAGE][PASSED] - Text 'cherodamer21@gmail.com' is set on object 'Object Repository/Page_Create New Customer Account/input_email'
+
+2018-08-04 13:25:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create New Customer Account/div_Password Strength' is clicked on
+
+2018-08-04 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/div_Password Strength' is clicked on
+
+2018-08-04 13:25:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create New Customer Account/div_Password Strength' is clicked on
+
+2018-08-04 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/div_Password Strength' is clicked on
+
+2018-08-04 13:25:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create New Customer Account/label_Password' is clicked on
+
+2018-08-04 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/label_Password' is clicked on
+
+2018-08-04 13:25:33 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Create New Customer Account/input_password'
+
+2018-08-04 13:25:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Create New Customer Account/input_password'
+
+2018-08-04 13:25:34 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 59d0bceee554b65cedf172820ddb7f84)
+
+2018-08-04 13:25:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 59d0bceee554b65cedf172820ddb7f84)
+[[ATTACHMENT|C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_132341\\1533378334557.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-04 13:25:01 - [TEST_CASE][FAILED] - Test Cases/user_registration: Test Cases/user_registration FAILED because (of) Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 59d0bceee554b65cedf172820ddb7f84)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user_sig_in" classname="Test Cases/user_sig_in" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'cheroda@gmail.com' of object 'Object Repository/Page_Customer Login/input_loginusername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Login/input_loginusername' located by 'By.xpath: //input[@name = 'login[username]' and @id = 'email' and @title = 'Email' and @type = 'email']' not found)"/>
+         <system-out><![CDATA[2018-08-04 13:25:35 - [TEST_CASE][FAILED] - Test Cases/user_sig_in: Test Cases/user_sig_in FAILED because (of) Unable to set text 'cheroda@gmail.com' of object 'Object Repository/Page_Customer Login/input_loginusername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Login/input_loginusername' located by 'By.xpath: //input[@name = 'login[username]' and @id = 'email' and @title = 'Email' and @type = 'email']' not found)
+
+2018-08-04 13:25:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-04 13:25:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-04 13:25:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-04 13:25:38 - [TEST_STEP][FAILED] - setText: Unable to set text 'cheroda@gmail.com' of object 'Object Repository/Page_Customer Login/input_loginusername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Login/input_loginusername' located by 'By.xpath: //input[@name = 'login[username]' and @id = 'email' and @title = 'Email' and @type = 'email']' not found)
+
+2018-08-04 13:26:10 - [MESSAGE][FAILED] - Unable to set text 'cheroda@gmail.com' of object 'Object Repository/Page_Customer Login/input_loginusername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Login/input_loginusername' located by 'By.xpath: //input[@name = 'login[username]' and @id = 'email' and @title = 'Email' and @type = 'email']' not found)
+[[ATTACHMENT|C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_132341\\1533378370599.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-04 13:25:35 - [TEST_CASE][FAILED] - Test Cases/user_sig_in: Test Cases/user_sig_in FAILED because (of) Unable to set text 'cheroda@gmail.com' of object 'Object Repository/Page_Customer Login/input_loginusername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Login/input_loginusername' located by 'By.xpath: //input[@name = 'login[username]' and @id = 'email' and @title = 'Email' and @type = 'email']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/product_search_specific_category" classname="Test Cases/product_search_specific_category" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Search results for huwawei/li_huawei34' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Search results for huwawei/li_huawei34' located by 'By.xpath: //li[@id = 'qs-option-0' and (text() = ' huawei34' or . = ' huawei34')]' not found)"/>
+         <system-out><![CDATA[2018-08-04 13:26:10 - [TEST_CASE][FAILED] - Test Cases/product_search_specific_category: Test Cases/product_search_specific_category FAILED because (of) Unable to click on object 'Object Repository/Page_Search results for huwawei/li_huawei34' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Search results for huwawei/li_huawei34' located by 'By.xpath: //li[@id = 'qs-option-0' and (text() = ' huawei34' or . = ' huawei34')]' not found)
+
+2018-08-04 13:26:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-04 13:26:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-04 13:26:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-04 13:26:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:26:41 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:26:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '923' are selected in object 'Object Repository/Page_Search results for Diapers/select_All CategoriesPHONES  T'  using regular expression
+
+2018-08-04 13:26:43 - [MESSAGE][PASSED] - All options with value '923' are selected in object 'Object Repository/Page_Search results for Diapers/select_All CategoriesPHONES  T'  using regular expression
+
+2018-08-04 13:26:43 - [TEST_STEP][PASSED] - setText: Text 'huwawei' is set on object 'Object Repository/Page_Search results for Diapers/input_q'
+
+2018-08-04 13:26:43 - [MESSAGE][PASSED] - Text 'huwawei' is set on object 'Object Repository/Page_Search results for Diapers/input_q'
+
+2018-08-04 13:26:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search results for Diapers/div_Search' is clicked on
+
+2018-08-04 13:26:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search results for Diapers/div_Search' is clicked on
+
+2018-08-04 13:26:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search results for Diapers/button_Search' is clicked on
+
+2018-08-04 13:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search results for Diapers/button_Search' is clicked on
+
+2018-08-04 13:26:57 - [TEST_STEP][PASSED] - setText: Text 'huawei' is set on object 'Object Repository/Page_Search results for huwawei/input_q'
+
+2018-08-04 13:26:58 - [MESSAGE][PASSED] - Text 'huawei' is set on object 'Object Repository/Page_Search results for huwawei/input_q'
+
+2018-08-04 13:26:58 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Search results for huwawei/li_huawei34' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Search results for huwawei/li_huawei34' located by 'By.xpath: //li[@id = 'qs-option-0' and (text() = ' huawei34' or . = ' huawei34')]' not found)
+
+2018-08-04 13:27:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Search results for huwawei/li_huawei34' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Search results for huwawei/li_huawei34' located by 'By.xpath: //li[@id = 'qs-option-0' and (text() = ' huawei34' or . = ' huawei34')]' not found)
+[[ATTACHMENT|C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_132341\\1533378450281.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-04 13:26:10 - [TEST_CASE][FAILED] - Test Cases/product_search_specific_category: Test Cases/product_search_specific_category FAILED because (of) Unable to click on object 'Object Repository/Page_Search results for huwawei/li_huawei34' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Search results for huwawei/li_huawei34' located by 'By.xpath: //li[@id = 'qs-option-0' and (text() = ' huawei34' or . = ' huawei34')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-04 13:23:45 - [TEST_SUITE][FAILED] - saf_masoko_test_suite: Test Cases/add_to_cart FAILED because (of) Unable to click on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_My Cart' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: bef8a7987bd7b06965de7603d092c9cf)]]></system-out>
+      <system-err><![CDATA[2018-08-04 13:23:45 - [TEST_SUITE][FAILED] - saf_masoko_test_suite: Test Cases/add_to_cart FAILED because (of) Unable to click on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_My Cart' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: bef8a7987bd7b06965de7603d092c9cf)]]></system-err>
+   </testsuite>
+</testsuites>

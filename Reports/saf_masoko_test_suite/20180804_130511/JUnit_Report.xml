@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="saf_masoko_test_suite" time="75" tests="2" failures="2" errors="0">
+   <testsuite name="saf_masoko_test_suite" tests="2" failures="2" errors="0" time="75" timestamp="2018-08-04 13:05:14" hostname="USER - DESKTOP-A3PF5TC" id="Test Suites/saf_masoko_test_suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_130511"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_130511\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_130511\\1533377151406.png, C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_130511\\1533377189428.png"/>
+         <property name="hostName" value="USER - DESKTOP-A3PF5TC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="172.16.40.43"/>
+         <property name="sessionId" value="44ed82e2-d1c2-44ae-b020-1b112bc94e5c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/add_to_cart" classname="Test Cases/add_to_cart" status="PASSED">
+         <system-out><![CDATA[2018-08-04 13:05:14 - [TEST_CASE][PASSED] - Test Cases/add_to_cart: Test Cases/add_to_cart
+
+2018-08-04 13:05:15 - [TEST_STEP][PASSED] - Statement - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/product_search" classname="Test Cases/product_search" status="PASSED">
+         <system-out><![CDATA[2018-08-04 13:05:15 - [TEST_CASE][PASSED] - Test Cases/product_search: Test Cases/product_search
+
+2018-08-04 13:05:15 - [TEST_STEP][PASSED] - Statement - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user_registration" classname="Test Cases/user_registration" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Create New Customer Account/span_Create an Account' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element &lt;span> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13084, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f55f5516-b348-424b-ae8a-6f3a768fea14)"/>
+         <system-out><![CDATA[2018-08-04 13:05:15 - [TEST_CASE][FAILED] - Test Cases/user_registration: Test Cases/user_registration FAILED because (of) Unable to click on object 'Object Repository/Page_Create New Customer Account/span_Create an Account' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <span> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13084, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f55f5516-b348-424b-ae8a-6f3a768fea14)
+
+2018-08-04 13:05:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-04 13:05:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-04 13:05:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:05:45 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:05:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Register' is clicked on
+
+2018-08-04 13:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Register' is clicked on
+
+2018-08-04 13:05:51 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Create New Customer Account/span_Create an Account' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <span> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13084, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f55f5516-b348-424b-ae8a-6f3a768fea14)
+
+2018-08-04 13:05:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Create New Customer Account/span_Create an Account' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <span> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13084, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f55f5516-b348-424b-ae8a-6f3a768fea14)
+[[ATTACHMENT|C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_130511\\1533377151406.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-04 13:05:15 - [TEST_CASE][FAILED] - Test Cases/user_registration: Test Cases/user_registration FAILED because (of) Unable to click on object 'Object Repository/Page_Create New Customer Account/span_Create an Account' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <span> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13084, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f55f5516-b348-424b-ae8a-6f3a768fea14)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user_sig_in" classname="Test Cases/user_sig_in" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'cheroda@gmail.com' of object 'Object Repository/Page_Customer Login/input_loginusername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Login/input_loginusername' located by 'By.xpath: //input[@name = 'login[username]' and @id = 'email' and @title = 'Email' and @type = 'email']' not found)"/>
+         <system-out><![CDATA[2018-08-04 13:05:52 - [TEST_CASE][FAILED] - Test Cases/user_sig_in: Test Cases/user_sig_in FAILED because (of) Unable to set text 'cheroda@gmail.com' of object 'Object Repository/Page_Customer Login/input_loginusername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Login/input_loginusername' located by 'By.xpath: //input[@name = 'login[username]' and @id = 'email' and @title = 'Email' and @type = 'email']' not found)
+
+2018-08-04 13:05:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-04 13:05:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-04 13:05:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-04 13:05:57 - [TEST_STEP][FAILED] - setText: Unable to set text 'cheroda@gmail.com' of object 'Object Repository/Page_Customer Login/input_loginusername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Login/input_loginusername' located by 'By.xpath: //input[@name = 'login[username]' and @id = 'email' and @title = 'Email' and @type = 'email']' not found)
+
+2018-08-04 13:06:29 - [MESSAGE][FAILED] - Unable to set text 'cheroda@gmail.com' of object 'Object Repository/Page_Customer Login/input_loginusername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Login/input_loginusername' located by 'By.xpath: //input[@name = 'login[username]' and @id = 'email' and @title = 'Email' and @type = 'email']' not found)
+[[ATTACHMENT|C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_130511\\1533377189428.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-04 13:05:52 - [TEST_CASE][FAILED] - Test Cases/user_sig_in: Test Cases/user_sig_in FAILED because (of) Unable to set text 'cheroda@gmail.com' of object 'Object Repository/Page_Customer Login/input_loginusername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Login/input_loginusername' located by 'By.xpath: //input[@name = 'login[username]' and @id = 'email' and @title = 'Email' and @type = 'email']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-04 13:05:14 - [TEST_SUITE][FAILED] - saf_masoko_test_suite: Test Cases/user_registration FAILED because (of) Unable to click on object 'Object Repository/Page_Create New Customer Account/span_Create an Account' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <span> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13084, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f55f5516-b348-424b-ae8a-6f3a768fea14)]]></system-out>
+      <system-err><![CDATA[2018-08-04 13:05:14 - [TEST_SUITE][FAILED] - saf_masoko_test_suite: Test Cases/user_registration FAILED because (of) Unable to click on object 'Object Repository/Page_Create New Customer Account/span_Create an Account' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <span> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13084, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f55f5516-b348-424b-ae8a-6f3a768fea14)]]></system-err>
+   </testsuite>
+</testsuites>

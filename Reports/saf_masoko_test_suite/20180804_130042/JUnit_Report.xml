@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="saf_masoko_test_suite" time="46" tests="0" failures="1" errors="0">
+   <testsuite name="saf_masoko_test_suite" tests="0" failures="1" errors="0" time="46" timestamp="2018-08-04 13:00:46" hostname="USER - DESKTOP-A3PF5TC" id="Test Suites/saf_masoko_test_suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_130042"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_130042\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_130042\\1533376891954.png"/>
+         <property name="hostName" value="USER - DESKTOP-A3PF5TC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="172.16.40.43"/>
+         <property name="sessionId" value="9bd43d80-f22b-4998-8fee-138c36a03765"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/user_registration" classname="Test Cases/user_registration" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element &lt;label class=&quot;required&quot;> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11672, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9bd43d80-f22b-4998-8fee-138c36a03765)"/>
+         <system-out><![CDATA[2018-08-04 13:00:47 - [TEST_CASE][FAILED] - Test Cases/user_registration: Test Cases/user_registration FAILED because (of) Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <label class="required"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11672, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9bd43d80-f22b-4998-8fee-138c36a03765)
+
+2018-08-04 13:00:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-04 13:00:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-04 13:00:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:01:10 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:01:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Register' is clicked on
+
+2018-08-04 13:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Register' is clicked on
+
+2018-08-04 13:01:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create New Customer Account/span_Create an Account' is clicked on
+
+2018-08-04 13:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/span_Create an Account' is clicked on
+
+2018-08-04 13:01:27 - [TEST_STEP][PASSED] - setText: Text 'Damaris' is set on object 'Object Repository/Page_Create New Customer Account/input_firstname'
+
+2018-08-04 13:01:27 - [MESSAGE][PASSED] - Text 'Damaris' is set on object 'Object Repository/Page_Create New Customer Account/input_firstname'
+
+2018-08-04 13:01:27 - [TEST_STEP][PASSED] - setText: Text 'Cherono' is set on object 'Object Repository/Page_Create New Customer Account/input_lastname'
+
+2018-08-04 13:01:28 - [MESSAGE][PASSED] - Text 'Cherono' is set on object 'Object Repository/Page_Create New Customer Account/input_lastname'
+
+2018-08-04 13:01:28 - [TEST_STEP][PASSED] - setText: Text '+254746155548' is set on object 'Object Repository/Page_Create New Customer Account/input_mobile'
+
+2018-08-04 13:01:29 - [MESSAGE][PASSED] - Text '+254746155548' is set on object 'Object Repository/Page_Create New Customer Account/input_mobile'
+
+2018-08-04 13:01:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create New Customer Account/label_Email' is clicked on
+
+2018-08-04 13:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/label_Email' is clicked on
+
+2018-08-04 13:01:29 - [TEST_STEP][PASSED] - setText: Text 'cherodamer21@gmail.com' is set on object 'Object Repository/Page_Create New Customer Account/input_email'
+
+2018-08-04 13:01:30 - [MESSAGE][PASSED] - Text 'cherodamer21@gmail.com' is set on object 'Object Repository/Page_Create New Customer Account/input_email'
+
+2018-08-04 13:01:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create New Customer Account/div_Password Strength' is clicked on
+
+2018-08-04 13:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/div_Password Strength' is clicked on
+
+2018-08-04 13:01:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create New Customer Account/div_Password Strength' is clicked on
+
+2018-08-04 13:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/div_Password Strength' is clicked on
+
+2018-08-04 13:01:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create New Customer Account/label_Password' is clicked on
+
+2018-08-04 13:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/label_Password' is clicked on
+
+2018-08-04 13:01:31 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Create New Customer Account/input_password'
+
+2018-08-04 13:01:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Create New Customer Account/input_password'
+
+2018-08-04 13:01:31 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <label class="required"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11672, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9bd43d80-f22b-4998-8fee-138c36a03765)
+
+2018-08-04 13:01:32 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <label class="required"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11672, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9bd43d80-f22b-4998-8fee-138c36a03765)
+[[ATTACHMENT|C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_130042\\1533376891954.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-04 13:00:47 - [TEST_CASE][FAILED] - Test Cases/user_registration: Test Cases/user_registration FAILED because (of) Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <label class="required"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11672, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9bd43d80-f22b-4998-8fee-138c36a03765)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-04 13:00:46 - [TEST_SUITE][FAILED] - saf_masoko_test_suite: Test Cases/user_registration FAILED because (of) Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <label class="required"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11672, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9bd43d80-f22b-4998-8fee-138c36a03765)]]></system-out>
+      <system-err><![CDATA[2018-08-04 13:00:46 - [TEST_SUITE][FAILED] - saf_masoko_test_suite: Test Cases/user_registration FAILED because (of) Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <label class="required"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11672, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9bd43d80-f22b-4998-8fee-138c36a03765)]]></system-err>
+   </testsuite>
+</testsuites>

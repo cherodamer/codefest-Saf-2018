@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="saf_masoko_test_suite" time="286" tests="1" failures="5" errors="0">
+   <testsuite name="saf_masoko_test_suite" tests="1" failures="5" errors="0" time="286" timestamp="2018-08-04 13:52:14" hostname="USER - DESKTOP-A3PF5TC" id="Test Suites/saf_masoko_test_suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_135211"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_135211\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_135211\\1533379991036.png, C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_135211\\1533380017720.png, C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_135211\\1533380055674.png, C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_135211\\1533380181507.png, C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_135211\\1533380220662.png"/>
+         <property name="hostName" value="USER - DESKTOP-A3PF5TC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="172.16.40.43"/>
+         <property name="sessionId" value="11e95d89-38f9-49d0-89ad-6dcf5d72663d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC1_user_registration" classname="Test Cases/TC1_user_registration" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element &lt;label class=&quot;required&quot;> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 712, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b713f5c5-99b9-4308-a2a1-c07c8e958f50)"/>
+         <system-out><![CDATA[2018-08-04 13:52:15 - [TEST_CASE][FAILED] - Test Cases/TC1_user_registration: Test Cases/TC1_user_registration FAILED because (of) Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <label class="required"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 712, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b713f5c5-99b9-4308-a2a1-c07c8e958f50)
+
+2018-08-04 13:52:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-04 13:52:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-04 13:52:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:52:49 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:52:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Register' is clicked on
+
+2018-08-04 13:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Register' is clicked on
+
+2018-08-04 13:53:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create New Customer Account/span_Create an Account' is clicked on
+
+2018-08-04 13:53:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/span_Create an Account' is clicked on
+
+2018-08-04 13:53:06 - [TEST_STEP][PASSED] - setText: Text 'Damaris' is set on object 'Object Repository/Page_Create New Customer Account/input_firstname'
+
+2018-08-04 13:53:06 - [MESSAGE][PASSED] - Text 'Damaris' is set on object 'Object Repository/Page_Create New Customer Account/input_firstname'
+
+2018-08-04 13:53:06 - [TEST_STEP][PASSED] - setText: Text 'Cherono' is set on object 'Object Repository/Page_Create New Customer Account/input_lastname'
+
+2018-08-04 13:53:06 - [MESSAGE][PASSED] - Text 'Cherono' is set on object 'Object Repository/Page_Create New Customer Account/input_lastname'
+
+2018-08-04 13:53:06 - [TEST_STEP][PASSED] - setText: Text '+254746155548' is set on object 'Object Repository/Page_Create New Customer Account/input_mobile'
+
+2018-08-04 13:53:06 - [MESSAGE][PASSED] - Text '+254746155548' is set on object 'Object Repository/Page_Create New Customer Account/input_mobile'
+
+2018-08-04 13:53:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create New Customer Account/label_Email' is clicked on
+
+2018-08-04 13:53:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/label_Email' is clicked on
+
+2018-08-04 13:53:07 - [TEST_STEP][PASSED] - setText: Text 'cherodamer21@gmail.com' is set on object 'Object Repository/Page_Create New Customer Account/input_email'
+
+2018-08-04 13:53:07 - [MESSAGE][PASSED] - Text 'cherodamer21@gmail.com' is set on object 'Object Repository/Page_Create New Customer Account/input_email'
+
+2018-08-04 13:53:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create New Customer Account/div_Password Strength' is clicked on
+
+2018-08-04 13:53:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/div_Password Strength' is clicked on
+
+2018-08-04 13:53:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create New Customer Account/div_Password Strength' is clicked on
+
+2018-08-04 13:53:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/div_Password Strength' is clicked on
+
+2018-08-04 13:53:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create New Customer Account/label_Password' is clicked on
+
+2018-08-04 13:53:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Customer Account/label_Password' is clicked on
+
+2018-08-04 13:53:08 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Create New Customer Account/input_password'
+
+2018-08-04 13:53:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Create New Customer Account/input_password'
+
+2018-08-04 13:53:10 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <label class="required"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 712, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b713f5c5-99b9-4308-a2a1-c07c8e958f50)
+
+2018-08-04 13:53:11 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <label class="required"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 712, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b713f5c5-99b9-4308-a2a1-c07c8e958f50)
+[[ATTACHMENT|C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_135211\\1533379991036.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-04 13:52:15 - [TEST_CASE][FAILED] - Test Cases/TC1_user_registration: Test Cases/TC1_user_registration FAILED because (of) Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <label class="required"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 712, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b713f5c5-99b9-4308-a2a1-c07c8e958f50)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2_user_registration_valid_data" classname="Test Cases/TC2_user_registration_valid_data" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-08-04 13:53:11 - [TEST_CASE][FAILED] - Test Cases/TC2_user_registration_valid_data: Test Cases/TC2_user_registration_valid_data FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-04 13:53:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-04 13:53:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-04 13:53:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-04 13:53:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.masoko.com/customer/account/create/' successfully
+
+2018-08-04 13:53:37 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/customer/account/create/' successfully
+
+2018-08-04 13:53:37 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-04 13:53:37 - [MESSAGE][WARNING] - Cannot find test object with id 'Object Repository/Page_Create New Customer Account/html_var require          base' because of 'org.dom4j.DocumentException: Error on line 287 of document file:///C:/Users/USER/git/codefest-Saf-2018/Object%20Repository/Page_Create%20New%20Customer%20Account/html_var%20require%20%20%20%20%20%20%20%20%20%20base.rs : The character sequence "]]>" must not appear in content unless used to mark the end of a CDATA section. Nested exception: The character sequence "]]>" must not appear in content unless used to mark the end of a CDATA section.'
+
+2018-08-04 13:53:37 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-08-04 13:53:38 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_135211\\1533380017720.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-04 13:53:11 - [TEST_CASE][FAILED] - Test Cases/TC2_user_registration_valid_data: Test Cases/TC2_user_registration_valid_data FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC3_user_sig_in" classname="Test Cases/TC3_user_sig_in" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'cheroda@gmail.com' of object 'Object Repository/Page_Customer Login/input_loginusername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Login/input_loginusername' located by 'By.xpath: //input[@name = 'login[username]' and @id = 'email' and @title = 'Email' and @type = 'email']' not found)"/>
+         <system-out><![CDATA[2018-08-04 13:53:38 - [TEST_CASE][FAILED] - Test Cases/TC3_user_sig_in: Test Cases/TC3_user_sig_in FAILED because (of) Unable to set text 'cheroda@gmail.com' of object 'Object Repository/Page_Customer Login/input_loginusername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Login/input_loginusername' located by 'By.xpath: //input[@name = 'login[username]' and @id = 'email' and @title = 'Email' and @type = 'email']' not found)
+
+2018-08-04 13:53:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-04 13:53:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-04 13:53:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-04 13:53:44 - [TEST_STEP][FAILED] - setText: Unable to set text 'cheroda@gmail.com' of object 'Object Repository/Page_Customer Login/input_loginusername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Login/input_loginusername' located by 'By.xpath: //input[@name = 'login[username]' and @id = 'email' and @title = 'Email' and @type = 'email']' not found)
+
+2018-08-04 13:54:15 - [MESSAGE][FAILED] - Unable to set text 'cheroda@gmail.com' of object 'Object Repository/Page_Customer Login/input_loginusername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Login/input_loginusername' located by 'By.xpath: //input[@name = 'login[username]' and @id = 'email' and @title = 'Email' and @type = 'email']' not found)
+[[ATTACHMENT|C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_135211\\1533380055674.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-04 13:53:38 - [TEST_CASE][FAILED] - Test Cases/TC3_user_sig_in: Test Cases/TC3_user_sig_in FAILED because (of) Unable to set text 'cheroda@gmail.com' of object 'Object Repository/Page_Customer Login/input_loginusername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Login/input_loginusername' located by 'By.xpath: //input[@name = 'login[username]' and @id = 'email' and @title = 'Email' and @type = 'email']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC4_product_search" classname="Test Cases/TC4_product_search" status="PASSED">
+         <system-out><![CDATA[2018-08-04 13:54:15 - [TEST_CASE][PASSED] - Test Cases/TC4_product_search: Test Cases/TC4_product_search
+
+2018-08-04 13:54:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-04 13:54:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-04 13:54:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-04 13:54:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:54:37 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:54:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-08-04 13:54:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-08-04 13:54:48 - [TEST_STEP][PASSED] - setText: Text 'bouncy diapers' is set on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/input_q'
+
+2018-08-04 13:54:48 - [MESSAGE][PASSED] - Text 'bouncy diapers' is set on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/input_q'
+
+2018-08-04 13:54:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-08-04 13:54:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Online in Kenya - Pay Con/button_Search' is clicked on
+
+2018-08-04 13:54:56 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-04 13:54:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC5_product_search_specific_category" classname="Test Cases/TC5_product_search_specific_category" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Search results for huwawei/li_huawei34' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Search results for huwawei/li_huawei34' located by 'By.xpath: //li[@id = 'qs-option-0' and (text() = ' huawei34' or . = ' huawei34')]' not found)"/>
+         <system-out><![CDATA[2018-08-04 13:54:57 - [TEST_CASE][FAILED] - Test Cases/TC5_product_search_specific_category: Test Cases/TC5_product_search_specific_category FAILED because (of) Unable to click on object 'Object Repository/Page_Search results for huwawei/li_huawei34' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Search results for huwawei/li_huawei34' located by 'By.xpath: //li[@id = 'qs-option-0' and (text() = ' huawei34' or . = ' huawei34')]' not found)
+
+2018-08-04 13:54:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-04 13:55:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-04 13:55:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:55:19 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:55:19 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '923' are selected in object 'Object Repository/Page_Search results for Diapers/select_All CategoriesPHONES  T'  using regular expression
+
+2018-08-04 13:55:22 - [MESSAGE][PASSED] - All options with value '923' are selected in object 'Object Repository/Page_Search results for Diapers/select_All CategoriesPHONES  T'  using regular expression
+
+2018-08-04 13:55:22 - [TEST_STEP][PASSED] - setText: Text 'huwawei' is set on object 'Object Repository/Page_Search results for Diapers/input_q'
+
+2018-08-04 13:55:22 - [MESSAGE][PASSED] - Text 'huwawei' is set on object 'Object Repository/Page_Search results for Diapers/input_q'
+
+2018-08-04 13:55:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search results for Diapers/div_Search' is clicked on
+
+2018-08-04 13:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search results for Diapers/div_Search' is clicked on
+
+2018-08-04 13:55:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search results for Diapers/button_Search' is clicked on
+
+2018-08-04 13:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search results for Diapers/button_Search' is clicked on
+
+2018-08-04 13:55:49 - [TEST_STEP][PASSED] - setText: Text 'huawei' is set on object 'Object Repository/Page_Search results for huwawei/input_q'
+
+2018-08-04 13:55:49 - [MESSAGE][PASSED] - Text 'huawei' is set on object 'Object Repository/Page_Search results for huwawei/input_q'
+
+2018-08-04 13:55:49 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Search results for huwawei/li_huawei34' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Search results for huwawei/li_huawei34' located by 'By.xpath: //li[@id = 'qs-option-0' and (text() = ' huawei34' or . = ' huawei34')]' not found)
+
+2018-08-04 13:56:21 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Search results for huwawei/li_huawei34' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Search results for huwawei/li_huawei34' located by 'By.xpath: //li[@id = 'qs-option-0' and (text() = ' huawei34' or . = ' huawei34')]' not found)
+[[ATTACHMENT|C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_135211\\1533380181507.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-04 13:54:57 - [TEST_CASE][FAILED] - Test Cases/TC5_product_search_specific_category: Test Cases/TC5_product_search_specific_category FAILED because (of) Unable to click on object 'Object Repository/Page_Search results for huwawei/li_huawei34' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Search results for huwawei/li_huawei34' located by 'By.xpath: //li[@id = 'qs-option-0' and (text() = ' huawei34' or . = ' huawei34')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC6_add_to_cart" classname="Test Cases/TC6_add_to_cart" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Add to Cart' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Add to Cart' located by 'By.xpath: //span[(text() = 'Add to Cart' or . = 'Add to Cart')]' not found)"/>
+         <system-out><![CDATA[2018-08-04 13:56:21 - [TEST_CASE][FAILED] - Test Cases/TC6_add_to_cart: Test Cases/TC6_add_to_cart FAILED because (of) Unable to click on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Add to Cart' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Add to Cart' located by 'By.xpath: //span[(text() = 'Add to Cart' or . = 'Add to Cart')]' not found)
+
+2018-08-04 13:56:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-04 13:56:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-04 13:56:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-04 13:56:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:56:29 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/' successfully
+
+2018-08-04 13:56:29 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Add to Cart' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Add to Cart' located by 'By.xpath: //span[(text() = 'Add to Cart' or . = 'Add to Cart')]' not found)
+
+2018-08-04 13:57:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Add to Cart' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Add to Cart' located by 'By.xpath: //span[(text() = 'Add to Cart' or . = 'Add to Cart')]' not found)
+[[ATTACHMENT|C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_135211\\1533380220662.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-04 13:56:21 - [TEST_CASE][FAILED] - Test Cases/TC6_add_to_cart: Test Cases/TC6_add_to_cart FAILED because (of) Unable to click on object 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Add to Cart' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Shop Online in Kenya - Pay Con/span_Add to Cart' located by 'By.xpath: //span[(text() = 'Add to Cart' or . = 'Add to Cart')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-04 13:52:14 - [TEST_SUITE][FAILED] - saf_masoko_test_suite: Test Cases/TC1_user_registration FAILED because (of) Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <label class="required"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 712, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b713f5c5-99b9-4308-a2a1-c07c8e958f50)]]></system-out>
+      <system-err><![CDATA[2018-08-04 13:52:14 - [TEST_SUITE][FAILED] - saf_masoko_test_suite: Test Cases/TC1_user_registration FAILED because (of) Unable to click on object 'Object Repository/Page_Create New Customer Account/label_Confirm Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <label class="required"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-A3PF5TC', ip: '172.16.40.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 712, moz:profile: C:\Users\USER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b713f5c5-99b9-4308-a2a1-c07c8e958f50)]]></system-err>
+   </testsuite>
+</testsuites>

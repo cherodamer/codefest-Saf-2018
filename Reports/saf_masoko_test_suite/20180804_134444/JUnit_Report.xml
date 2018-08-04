@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="saf_masoko_test_suite" time="27" tests="0" failures="1" errors="0">
+   <testsuite name="saf_masoko_test_suite" tests="0" failures="1" errors="0" time="27" timestamp="2018-08-04 13:44:48" hostname="USER - DESKTOP-A3PF5TC" id="Test Suites/saf_masoko_test_suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_134444"/>
+         <property name="logFiles" value="C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_134444\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_134444\\1533379514299.png"/>
+         <property name="hostName" value="USER - DESKTOP-A3PF5TC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="172.16.40.43"/>
+         <property name="sessionId" value="733f0eb8-4d4b-4520-8ce8-f219ae287041"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/user_registration_valid_data" classname="Test Cases/user_registration_valid_data" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-08-04 13:44:48 - [TEST_CASE][FAILED] - Test Cases/user_registration_valid_data: Test Cases/user_registration_valid_data FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-04 13:44:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-04 13:44:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-04 13:44:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.masoko.com/customer/account/create/' successfully
+
+2018-08-04 13:45:14 - [MESSAGE][PASSED] - Navigate to 'https://www.masoko.com/customer/account/create/' successfully
+
+2018-08-04 13:45:14 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-04 13:45:14 - [MESSAGE][WARNING] - Cannot find test object with id 'Object Repository/Page_Create New Customer Account/html_var require          base' because of 'org.dom4j.DocumentException: Error on line 287 of document file:///C:/Users/USER/git/codefest-Saf-2018/Object%20Repository/Page_Create%20New%20Customer%20Account/html_var%20require%20%20%20%20%20%20%20%20%20%20base.rs : The character sequence "]]>" must not appear in content unless used to mark the end of a CDATA section. Nested exception: The character sequence "]]>" must not appear in content unless used to mark the end of a CDATA section.'
+
+2018-08-04 13:45:14 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-08-04 13:45:14 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\USER\\git\\codefest-Saf-2018\\Reports\\saf_masoko_test_suite\\20180804_134444\\1533379514299.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-04 13:44:48 - [TEST_CASE][FAILED] - Test Cases/user_registration_valid_data: Test Cases/user_registration_valid_data FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-04 13:44:48 - [TEST_SUITE][FAILED] - saf_masoko_test_suite: Test Cases/user_registration_valid_data FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-08-04 13:44:48 - [TEST_SUITE][FAILED] - saf_masoko_test_suite: Test Cases/user_registration_valid_data FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

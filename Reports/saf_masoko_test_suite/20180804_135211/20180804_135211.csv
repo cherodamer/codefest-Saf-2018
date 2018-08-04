@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+saf_masoko_test_suite,Firefox 61.0,test suite,2018-08-04 13:52:14,2018-08-04 13:57:01,4m - 46.670s,FAILED
+,,,,,,
+Test Cases/TC1_user_registration,Firefox 61.0,user registration,2018-08-04 13:52:15,2018-08-04 13:53:11,56.028s,FAILED
+openBrowser,Firefox 61.0,,2018-08-04 13:52:16,2018-08-04 13:52:23,7.131s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-04 13:52:23,2018-08-04 13:52:49,26.565s,PASSED
+click,Firefox 61.0,,2018-08-04 13:52:49,2018-08-04 13:53:05,15.382s,PASSED
+click,Firefox 61.0,,2018-08-04 13:53:05,2018-08-04 13:53:06,0.946s,PASSED
+setText,Firefox 61.0,,2018-08-04 13:53:06,2018-08-04 13:53:06,0.281s,PASSED
+setText,Firefox 61.0,,2018-08-04 13:53:06,2018-08-04 13:53:06,0.139s,PASSED
+setText,Firefox 61.0,,2018-08-04 13:53:06,2018-08-04 13:53:06,0.245s,PASSED
+click,Firefox 61.0,,2018-08-04 13:53:06,2018-08-04 13:53:07,0.312s,PASSED
+setText,Firefox 61.0,,2018-08-04 13:53:07,2018-08-04 13:53:07,0.216s,PASSED
+click,Firefox 61.0,,2018-08-04 13:53:07,2018-08-04 13:53:07,0.527s,PASSED
+click,Firefox 61.0,,2018-08-04 13:53:07,2018-08-04 13:53:08,0.333s,PASSED
+click,Firefox 61.0,,2018-08-04 13:53:08,2018-08-04 13:53:08,0.352s,PASSED
+setEncryptedText,Firefox 61.0,,2018-08-04 13:53:08,2018-08-04 13:53:10,2.315s,PASSED
+click,Firefox 61.0,,2018-08-04 13:53:10,2018-08-04 13:53:11,0.573s,FAILED
+,,,,,,
+Test Cases/TC2_user_registration_valid_data,Firefox 61.0,Using valid data,2018-08-04 13:53:11,2018-08-04 13:53:38,26.624s,FAILED
+openBrowser,Firefox 61.0,,2018-08-04 13:53:12,2018-08-04 13:53:18,6.214s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-04 13:53:18,2018-08-04 13:53:37,19.415s,PASSED
+click,Firefox 61.0,,2018-08-04 13:53:37,2018-08-04 13:53:38,0.418s,FAILED
+,,,,,,
+Test Cases/TC3_user_sig_in,Firefox 61.0,user sign in,2018-08-04 13:53:38,2018-08-04 13:54:15,37.633s,FAILED
+openBrowser,Firefox 61.0,,2018-08-04 13:53:38,2018-08-04 13:53:44,5.761s,PASSED
+setText,Firefox 61.0,,2018-08-04 13:53:44,2018-08-04 13:54:15,31.223s,FAILED
+,,,,,,
+Test Cases/TC4_product_search,Firefox 61.0,product search,2018-08-04 13:54:15,2018-08-04 13:54:57,41.422s,PASSED
+openBrowser,Firefox 61.0,,2018-08-04 13:54:16,2018-08-04 13:54:20,4.815s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-04 13:54:20,2018-08-04 13:54:37,16.498s,PASSED
+click,Firefox 61.0,,2018-08-04 13:54:37,2018-08-04 13:54:48,11.010s,PASSED
+setText,Firefox 61.0,,2018-08-04 13:54:48,2018-08-04 13:54:48,0.488s,PASSED
+click,Firefox 61.0,,2018-08-04 13:54:48,2018-08-04 13:54:56,7.732s,PASSED
+closeBrowser,Firefox 61.0,,2018-08-04 13:54:56,2018-08-04 13:54:57,0.497s,PASSED
+,,,,,,
+Test Cases/TC5_product_search_specific_category,Firefox 61.0,specific category,2018-08-04 13:54:57,2018-08-04 13:56:21,1m - 24.537s,FAILED
+openBrowser,Firefox 61.0,,2018-08-04 13:54:57,2018-08-04 13:55:01,4.458s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-04 13:55:01,2018-08-04 13:55:19,17.541s,PASSED
+selectOptionByValue,Firefox 61.0,,2018-08-04 13:55:19,2018-08-04 13:55:22,2.552s,PASSED
+setText,Firefox 61.0,,2018-08-04 13:55:22,2018-08-04 13:55:22,0.669s,PASSED
+click,Firefox 61.0,,2018-08-04 13:55:22,2018-08-04 13:55:29,7.173s,PASSED
+click,Firefox 61.0,,2018-08-04 13:55:29,2018-08-04 13:55:49,19.584s,PASSED
+setText,Firefox 61.0,,2018-08-04 13:55:49,2018-08-04 13:55:49,0.406s,PASSED
+click,Firefox 61.0,,2018-08-04 13:55:49,2018-08-04 13:56:21,31.780s,FAILED
+,,,,,,
+Test Cases/TC6_add_to_cart,Firefox 61.0,add to cart,2018-08-04 13:56:21,2018-08-04 13:57:00,39.124s,FAILED
+openBrowser,Firefox 61.0,,2018-08-04 13:56:22,2018-08-04 13:56:27,5.080s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-04 13:56:27,2018-08-04 13:56:29,2.236s,PASSED
+click,Firefox 61.0,,2018-08-04 13:56:29,2018-08-04 13:57:00,31.425s,FAILED

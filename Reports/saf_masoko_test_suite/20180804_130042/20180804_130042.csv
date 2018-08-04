@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+saf_masoko_test_suite,Firefox 61.0,test suite,2018-08-04 13:00:46,2018-08-04 13:01:32,46.412s,FAILED
+,,,,,,
+Test Cases/user_registration,Firefox 61.0,user registration,2018-08-04 13:00:47,2018-08-04 13:01:32,44.979s,FAILED
+openBrowser,Firefox 61.0,,2018-08-04 13:00:47,2018-08-04 13:00:55,7.272s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-04 13:00:55,2018-08-04 13:01:10,15.587s,PASSED
+click,Firefox 61.0,,2018-08-04 13:01:10,2018-08-04 13:01:18,7.379s,PASSED
+click,Firefox 61.0,,2018-08-04 13:01:18,2018-08-04 13:01:27,8.992s,PASSED
+setText,Firefox 61.0,,2018-08-04 13:01:27,2018-08-04 13:01:27,0.591s,PASSED
+setText,Firefox 61.0,,2018-08-04 13:01:27,2018-08-04 13:01:28,0.568s,PASSED
+setText,Firefox 61.0,,2018-08-04 13:01:28,2018-08-04 13:01:29,0.765s,PASSED
+click,Firefox 61.0,,2018-08-04 13:01:29,2018-08-04 13:01:29,0.592s,PASSED
+setText,Firefox 61.0,,2018-08-04 13:01:29,2018-08-04 13:01:30,0.448s,PASSED
+click,Firefox 61.0,,2018-08-04 13:01:30,2018-08-04 13:01:30,0.318s,PASSED
+click,Firefox 61.0,,2018-08-04 13:01:30,2018-08-04 13:01:30,0.317s,PASSED
+click,Firefox 61.0,,2018-08-04 13:01:30,2018-08-04 13:01:31,0.365s,PASSED
+setEncryptedText,Firefox 61.0,,2018-08-04 13:01:31,2018-08-04 13:01:31,0.761s,PASSED
+click,Firefox 61.0,,2018-08-04 13:01:31,2018-08-04 13:01:32,0.400s,FAILED

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+saf_masoko_test_suite,Firefox 61.0,test suite,2018-08-04 13:44:48,2018-08-04 13:45:15,27.441s,FAILED
+,,,,,,
+Test Cases/user_registration_valid_data,Firefox 61.0,Using valid data,2018-08-04 13:44:48,2018-08-04 13:45:14,25.830s,FAILED
+openBrowser,Firefox 61.0,,2018-08-04 13:44:49,2018-08-04 13:44:56,6.638s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-04 13:44:56,2018-08-04 13:45:14,17.837s,PASSED
+click,Firefox 61.0,,2018-08-04 13:45:14,2018-08-04 13:45:14,0.568s,FAILED

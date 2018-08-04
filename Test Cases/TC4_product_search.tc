@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>product search</description>
+   <name>TC4_product_search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5be19165-1d18-4554-b411-52ee0ba4c6f5</testCaseGuid>
+</TestCaseEntity>

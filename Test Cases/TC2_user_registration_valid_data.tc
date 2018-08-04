@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Using valid data</description>
+   <name>TC2_user_registration_valid_data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4da5aa8-d9c7-47b2-83c8-0443b0910684</testCaseGuid>
+</TestCaseEntity>

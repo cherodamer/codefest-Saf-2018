@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+saf_masoko_test_suite,Chrome 67.0.3396.99,test suite,2018-08-04 15:38:35,2018-08-04 15:39:15,39.666s,FAILED
+,,,,,,
+Test Cases/TC6_add_to_cart,Chrome 67.0.3396.99,add to cart,2018-08-04 15:38:36,2018-08-04 15:39:14,37.774s,FAILED
+openBrowser,Chrome 67.0.3396.99,,2018-08-04 15:38:37,2018-08-04 15:38:42,4.976s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-08-04 15:38:42,2018-08-04 15:39:05,23.064s,PASSED
+click,Chrome 67.0.3396.99,,2018-08-04 15:39:05,2018-08-04 15:39:13,8.172s,PASSED
+click,Chrome 67.0.3396.99,,2018-08-04 15:39:13,2018-08-04 15:39:14,0.972s,FAILED

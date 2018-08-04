@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user sign in</description>
+   <name>TC3_user_sig_in</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9c4b4227-46ef-456e-af2f-c6cafca5d8d4</testCaseGuid>
+</TestCaseEntity>

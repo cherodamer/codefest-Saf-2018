@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+saf_masoko_test_suite,,test suite,2018-08-04 12:32:31,2018-08-04 12:32:33,2.403s,PASSED
+,,,,,,
+Test Cases/add_to_cart,,add to cart,2018-08-04 12:32:31,2018-08-04 12:32:32,0.600s,PASSED
+Statement - return null,,,2018-08-04 12:32:32,2018-08-04 12:32:32,0.015s,PASSED
+,,,,,,
+Test Cases/product_search,,product search,2018-08-04 12:32:32,2018-08-04 12:32:32,0.339s,PASSED
+Statement - return null,,,2018-08-04 12:32:32,2018-08-04 12:32:32,0.003s,PASSED
+,,,,,,
+Test Cases/user_registration,,user registration,2018-08-04 12:32:32,2018-08-04 12:32:33,0.395s,PASSED
+Statement - return null,,,2018-08-04 12:32:33,2018-08-04 12:32:33,0.002s,PASSED
+,,,,,,
+Test Cases/user_sig_in,,user sign in,2018-08-04 12:32:33,2018-08-04 12:32:33,0.284s,PASSED
+Statement - return null,,,2018-08-04 12:32:33,2018-08-04 12:32:33,0.003s,PASSED
